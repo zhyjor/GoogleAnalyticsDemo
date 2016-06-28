@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 您要向其发送数据的Google Analytics（分析）跟踪ID。ID中的短划线必须未经编码。您可以不提供此值，以此停用跟踪功能。 -->
+    <!-- LockBooster Release版本(UA-56887526-12); Dev版本(UA-56887526-7) UA-56887526-15-->
+    <string name="ga_trackingId">UA-77259384-5</string>
+
+    <!-- 每次用户启动Activity时自动跟踪屏幕浏览量。默认值为false。 -->
+    <bool name="ga_autoActivityTracking">false</bool>
+
+    <!-- 每次您的应用中出现未捕获的异常时，自动对其进行跟踪。默认值为false。 -->
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+
+    <!-- SDK日志记录器的详细程度。从最简略到最详细的有效值分别为：error、warning、info、verbose。日志级别默认设置为warning。 -->
+    <string name="ga_logLevel">warning</string>
+
+    <!-- 数据发送间隔，以秒为单位。默认值为30分钟。 -->
+    <integer name="ga_dispatchPeriod">20</integer>
+
+    <!-- 要使用的抽样率。默认值为100.0。可以是0.0和100.0之间的任何值。 -->
+    <string name="ga_sampleFrequency">100.0</string>
+
+    <!-- 您的应用在会话结束前可在后台停留的时间（以秒为单位）。默认值为30秒。将此值设为负值即可停用EasyTracker会话管理。 -->
+    <integer name="ga_sessionTimeout">30</integer>
+    
+    <screenName name="com.example.myweixin.MainActivity">MainScreen</screenName>
+
+</resources>
